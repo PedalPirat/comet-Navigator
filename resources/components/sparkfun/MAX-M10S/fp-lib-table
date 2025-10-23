@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SparkFun u-blox GNSS MAX-M10S")(type "KiCad")(uri "$(KIPRJMOD)/SparkFun u-blox GNSS MAX-M10S.pretty")(options "")(descr ""))
+)

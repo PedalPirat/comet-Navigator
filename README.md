@@ -16,6 +16,7 @@ I want to use the pizero_bikecomputer on a Mecha Comet. For it to work it needs 
 - 5 Buttons (to control the Software)
 - USB Hub (?) to connect AI-Cameras
 - Power Delivery to charge the Comet
+- GPIO/I2C/SPI Breakout
 
 ## Design Idea
 ### PCB
@@ -31,6 +32,8 @@ The data of the sensors is accessed by the Comet via USB.
 ### Mounting
 #### Comet Extension
 Extension that mounts on the Extension Interface of the Comet and screws to it's side to ensure it doesn't move.
+
+[Comet Pin-Out Docs](https://developers.mecha.so/comet/working-with-io/pin-diagram)
 #### Mount/Dock
 Dock for the Comet that includes an USB-Hub to connect Cameras etc, connects CAN and Power.
 
