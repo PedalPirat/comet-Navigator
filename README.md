@@ -14,7 +14,26 @@ I want to use the pizero_bikecomputer on a Mecha Comet. For it to work it needs 
 - Bosch [BHI385](https://www.bosch-sensortec.com/products/smart-sensor-systems/bhi385/) (IMU/Environmental)
 - CAN-Transceiver (to connect to the PedalPirat or E-Bikes)
 - 5 Buttons (to control the Software)
+- USB Hub (?) to connect AI-Cameras
+- Power Delivery to charge the Comet
+
+## Design Idea
+### PCB
+The core will be a nRF54H20 MCU by Nordic to which the other Components get connected to.
+
+There also needs to be a connector for the GPS antenna or an onboard antenna.
+
+### Firmware
+The firmware will be written for the Nordic [nRF Connect SDK](https://docs.nordicsemi.com/bundle/ncs-2.5.2/page/nrf/index.html) which is based on the [Zephyr RTOS](https://github.com/zephyrproject-rtos/zephyr).
+
+The data of the sensors is accessed by the Comet via USB.
+
+### Mounting
+
+
 
 
 ## Existing Products / Designs
-- 
+- [Comet Gamepad V1](https://github.com/PedalPirat/comet-Navigator/tree/main/resources/mecha/Comet-Gamepad-V1)
+- [SparkFun MAX-M10S](https://github.com/sparkfun/SparkFun_u-blox_MAX-M10S)
+- [Bosch BHI385 Shuttle board](https://www.bosch-sensortec.com/media/boschsensortec/downloads/shuttle_board_flyer/application_board_3_1/bst-bhi385-sf000-00.pdf)
