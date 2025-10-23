@@ -29,6 +29,10 @@ The firmware will be written for the Nordic [nRF Connect SDK](https://docs.nordi
 The data of the sensors is accessed by the Comet via USB.
 
 ### Mounting
+#### Comet Extension
+Extension that mounts on the Extension Interface of the Comet and screws to it's side to ensure it doesn't move.
+#### Mount/Dock
+Dock for the Comet that includes an USB-Hub to connect Cameras etc, connects CAN and Power.
 
 
 
