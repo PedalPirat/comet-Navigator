@@ -24,6 +24,14 @@ The core will be a nRF54H20 MCU by Nordic to which the other Components get conn
 
 There also needs to be a connector for the GPS antenna or an onboard antenna.
 
+![alt text](image.png)
+- Green1 = BHI385
+- Blue = GPS Antenna
+- Red = uBlox MAX-10S
+- Green2 = Ezurio BL54H20 (nRF54H20)
+- Yellow = CAN Transceiver
+- White = BT/ANT+ Antenna
+
 ### Firmware
 The firmware will be written for the Nordic [nRF Connect SDK](https://docs.nordicsemi.com/bundle/ncs-2.5.2/page/nrf/index.html) which is based on the [Zephyr RTOS](https://github.com/zephyrproject-rtos/zephyr).
 
@@ -37,7 +45,7 @@ Extension that mounts on the Extension Interface of the Comet and screws to it's
 #### Mount/Dock
 Dock for the Comet that includes an USB-Hub to connect Cameras etc, connects CAN and Power.
 
-
+Maybe something like the Bosch Intuvia Dock ![Bosch Intuvia Dock](resources/components/bosch/bosch-displayhalter-intuva.jpg)
 
 
 ## Existing Products / Designs
