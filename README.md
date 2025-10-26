@@ -46,7 +46,10 @@ Extension that mounts on the Extension Interface of the Comet and screws to it's
 Dock for the Comet that includes an USB-Hub to connect Cameras etc, connects CAN and Power.
 
 Maybe something like the Bosch Intuvia Dock ![Bosch Intuvia Dock](resources/components/bosch/bosch-displayhalter-intuva.jpg)
+![alt text](resources/components/bosch/intuvia_bottom.png)
 
+[Intuvia-Teardown](https://www.youtube.com/watch?v=ptTAljXuzoo)
+[More Teardown](https://www.youtube.com/watch?v=TgO4bjzqhkQ)
 
 ## Existing Products / Designs
 - [Comet Gamepad V1](https://github.com/PedalPirat/comet-Navigator/tree/main/resources/mecha/Comet-Gamepad-V1)
