@@ -51,6 +51,9 @@ Maybe something like the Bosch Intuvia Dock ![Bosch Intuvia Dock](resources/comp
 [Intuvia-Teardown](https://www.youtube.com/watch?v=ptTAljXuzoo)
 [More Teardown](https://www.youtube.com/watch?v=TgO4bjzqhkQ)
 
+### Forum Discussion
+[Mecha-org Forum Post](https://forum.mecha.so/t/comet-navigator-extension-with-gps-imu-can-ant/165)
+
 ## Existing Products / Designs
 - [Comet Gamepad V1](https://github.com/PedalPirat/comet-Navigator/tree/main/resources/mecha/Comet-Gamepad-V1)
 - [SparkFun MAX-M10S](https://github.com/sparkfun/SparkFun_u-blox_MAX-M10S)
